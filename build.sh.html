@@ -1,0 +1,5 @@
+<p>#!/bin/bash</p>
+<p>for file in “<span class="math inline">$HOME"/vimwiki/*
+do  name=$</span>(basename”<span class="math inline">$file" .md)  pandoc
+"$</span>file” -o “<span
+class="math inline">$HOME"/temp/"$</span>name”.html done</p>
