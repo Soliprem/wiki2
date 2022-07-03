@@ -60,3 +60,23 @@ body img[align=left] {
   padding-right: 20px;
 }
 
+body blockquote {
+  margin: 0;
+}
+
+body blockquote,
+
+body blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+body blockquote>:first-child {
+  margin-top: 0;
+}
+
+body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
