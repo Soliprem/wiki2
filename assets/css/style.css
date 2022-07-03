@@ -43,3 +43,20 @@ code {
   visibility: visible;
 }
 
+body img {
+  border-style: none;
+}
+
+body img {
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+body img[align=right] {
+  padding-left: 20px;
+}
+
+body img[align=left] {
+  padding-right: 20px;
+}
+
